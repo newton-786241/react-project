@@ -27,12 +27,12 @@ const Full = () => {
         {cardheading:'Waffle with berries', productname:'waffle', price:'6.50', id:'1', image: waffle},
         {cardheading:'Vanilla Bean Creme Brulee', productname:'Creme Brulee', price:"7.00", id:'2', image: creme},
         {cardheading:'Macaron Mix of Five', productname:'Macaron', price:'8.00', id:'3', image:macaron},
-        {cardheading:'Classic Tiramisu', productname:'Tiramisu', price:'5.50', image:tiramisu},
-        {cardheading:"Pistachio baklava", productname:'Baklava', price:'4.00', image:baklava},
-        {cardheading:'Lemon Moringue Pie', productname:'Pie', price:'5.00', image:pie},
-        {cardheading:'Red Velvet Cake', productname:'Cake', price:'4.50', image:cake},
-        {cardheading:"Salted Caramel Brownie", productname:'Brownie', price:'4.50', image:brownie},
-        {cardheading:'Vanilla Panna Cotta', productname:'Panna Cotta', price:'6.50', image:panna}
+        {cardheading:'Classic Tiramisu', productname:'Tiramisu', price:'5.50', id:'4', image:tiramisu},
+        {cardheading:"Pistachio baklava", productname:'Baklava', price:'4.00', id:'5', image:baklava},
+        {cardheading:'Lemon Moringue Pie', productname:'Pie', price:'5.00', id:'6', image:pie},
+        {cardheading:'Red Velvet Cake', productname:'Cake', price:'4.50', id:'7', image:cake},
+        {cardheading:"Salted Caramel Brownie", productname:'Brownie', id:'8', price:'4.50', image:brownie},
+        {cardheading:'Vanilla Panna Cotta', productname:'Panna Cotta', id:'9', price:'6.50', image:panna}
     ]
     const [cartitems, setcarditems] = useState([])
 
